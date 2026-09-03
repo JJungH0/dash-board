@@ -21,7 +21,7 @@ App Router 기반의 레이아웃·라우팅·데이터 페칭 등 핵심 개념
 
 | 챕터 | 주제 및 학습 내용 | 📖 내 학습 정리 | 🔗 공식 문서 |
 | :---: | :--- | :---: | :---: |
-| **Chap 4** | **레이아웃 및 페이지 생성**<br>- 중첩 라우팅(Nested Routing)<br>- `layout.tsx`, `page.tsx` 구성 | 정리 노션 보기 | 튜토리얼 |
+| **Chap 4** | **레이아웃 및 페이지 생성**<br>- 중첩 라우팅(Nested Routing)<br>- `layout.tsx`, `page.tsx` 구성 | [정리 노션 보기](https://app.notion.com/p/Layouts-and-Pages-3d05c23e942f80b8a0ecf765451cc45d?source=copy_link) | [튜토리얼](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages#root-layout) |
 | **Chap 5** | **페이지 간 이동 (Navigation)**<br>- `<Link>` 컴포넌트를 이용한 클라이언트 사이드 내비게이션<br>- `usePathname()` 훅을 활용한 활성 링크 스타일링 | 정리 노션 보기 | 튜토리얼 |
 | **Chap 6** | **데이터베이스 설정**<br>- PostgreSQL 데이터베이스 연동<br>- 시드(Seed) 데이터 추가 | 정리 노션 보기 | 튜토리얼 |
 
