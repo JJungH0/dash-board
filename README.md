@@ -52,8 +52,8 @@ app/
 # 1. 패키지 설치
 pnpm install
 
-# 2. 환경 변수 설정 (.env.example 참고)
-cp .env.example .env
+# 2. 환경 변수 설정 (.env 참고)
+cp .env .env
 
 # 3. 개발 서버 실행
 pnpm dev
