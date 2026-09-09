@@ -38,6 +38,7 @@ App Router 기반의 레이아웃·라우팅·데이터 페칭 등 핵심 개념
 | **Chap 12** | **오류 처리**<br>- JavaScript의 `except`<br>- Next.js API를 사용하여 예외 처리 `try/catch`                             |                                                    [정리 노션 보기](https://app.notion.com/p/Error-Handling-3d45c23e942f80958021de3ac67260ec?source=copy_link)                                                     |                                         [튜토리얼](https://nextjs.org/learn/dashboard-app/error-handling)                                          |
 | **Chap 13** | **접근성 개선**<br>- 서버 측 폼 유효성 검사 구현<br>- `useActionStateReact`훅을 사용하여 폼 오류 처리                               |                                                    [정리 노션 보기](https://app.notion.com/p/Improving-Accessibility-3d55c23e942f80d690ebd0447e898557?source=copy_link)                                                     |                                         [튜토리얼](https://nextjs.org/learn/dashboard-app/improving-accessibility)                                          |
 | **Chap 14** | **인증 추가**<br>- NextAuth.js를 이용한 인증 기능 구현<br>- `useActionStateReact`를 사용하여 대기 상태 및 폼 오류 처리                |                                                    [정리 노션 보기](https://app.notion.com/p/Adding-Authentication-3d65c23e942f8029a56edad5c46da78e?source=copy_link)                                                     |                                         [튜토리얼](https://nextjs.org/learn/dashboard-app/adding-authentication)                                          |
+| **Chap 15** | **메타데이터 추가**<br>- 메타데이터란 무엇인가?<br>- 메타데이터의 종류와 적용                                                        |                                                    [정리 노션 보기](https://app.notion.com/p/Adding-Metadata-3d65c23e942f800dada3f176c48d9b48?source=copy_link)                                                     |                                         [튜토리얼](https://nextjs.org/learn/dashboard-app/adding-metadata)                                          |
 
 
 ---
@@ -46,15 +47,21 @@ App Router 기반의 레이아웃·라우팅·데이터 페칭 등 핵심 개념
 
 ```
 app/
-├── layout.tsx          # 루트 레이아웃
-├── page.tsx            # 홈 페이지
 ├── dashboard/          # 대시보드 라우트 (중첩 레이아웃)
+│   ├── (overview)/
 │   ├── customers/
 │   ├── invoices/
 │   ├── layout.tsx
-│   └── page.tsx
-├── lib/                # 데이터 로직, 타입, 유틸
-└── ui/                 # UI 컴포넌트
+├── lib/                # 데이터 로직, 타입, 유틸, 액션
+├── login/              # 로그인 폼
+├── ui/                 # UI 컴포넌트
+│   ├── customers/
+│   ├── dashboard/
+│   ├── invoices/
+├── favicon.ico         # 파비콘
+├── og.png              # 오픈그래프 이미지
+├── layout.tsx          # 루트 레이아웃
+└── page.tsx            # 홈 페이지
 ```
 
 ---
