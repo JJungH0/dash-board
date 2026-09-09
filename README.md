@@ -1,9 +1,10 @@
 # 🚀 Next.js App Router Course – Dashboard
 
-Next.js 공식 튜토리얼(Learn Next.js)을 따라가며 학습한 **대시보드 애플리케이션** 프로젝트입니다.
+Next.js 공식 튜토리얼(Learn Next.js)을 따라가며 학습한 **대시보드 애플리케이션** 프로젝트입니다.<br>
 App Router 기반의 레이아웃·라우팅·데이터 페칭 등 핵심 개념을 챕터별로 정리하고, 학습 노트와 공식 문서 링크를 함께 기록합니다.
 
-🔗 **배포 링크:** [https://jjung-dashboard.vercel.app/](https://jjung-dashboard.vercel.app/)
+🔗 **배포 링크:** [https://jjung-dashboard.vercel.app/](https://jjung-dashboard.vercel.app/)<br>
+🔐 **로그인 ID/PW:** `user@nextmail.com` / `123456`
 
 ---
 
